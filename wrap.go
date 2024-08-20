@@ -4,7 +4,8 @@ package fsevents
 
 /*
 
-#cgo LDFLAGS: -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -L/usr/lib -framework CoreServices
+#cgo CFLAGS: -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/CoreServices.framework/Headers
+#cgo LDFLAGS: -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -L/usr/lib -framework CoreServices
 #include <CoreServices/CoreServices.h>
 #include <sys/stat.h>
 
