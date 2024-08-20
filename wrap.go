@@ -3,7 +3,8 @@
 package fsevents
 
 /*
-#cgo LDFLAGS: -framework CoreServices
+
+#cgo LDFLAGS: -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -L/usr/lib -framework CoreServices
 #include <CoreServices/CoreServices.h>
 #include <sys/stat.h>
 
